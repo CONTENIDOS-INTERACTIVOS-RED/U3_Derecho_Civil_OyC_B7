@@ -36,15 +36,24 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/69558" target="_blank" rel="noopener noreferrer") Goddard, J. A. (2010). Obligaciones y contratos en el derecho contemporáneo: ( ed.). Universidad de La Sabana.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/51617" target="_blank" rel="noopener noreferrer") Arnau Moya, F. (2016). Lecciones de derecho civil II: obligaciones y contratos: ( ed.). D - Universitat Jaume I. Servei de Comunicació i Publicacions.  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=28729 " target="_blank" rel="noopener noreferrer") Congreso de Colombia. (1974). Código Civil colombiano (Edición actualizada). Recuperado de 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://isdabogados.es/tipos-contratos-civiles" target="_blank" rel="noopener noreferrer") ISD Abogados. (s.f.). Tipos de contratos civiles según lo establecido en el código civil. ISD Abogados. Recuperado el 27 de marzo de 2025, de 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://rodenasabogados.es/tipos-de-contratos-civiles " target="_blank" rel="noopener noreferrer")  Rodenas Abogados. (2023). Tipos de contratos civiles: guía completa. Rodenas Abogados. Recuperado el 27 de marzo de 2025, de 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/eZAUo_zI6hk?si=rX7wXLQ6pGKZg0EL " target="_blank" rel="noopener noreferrer")  Universidad continental (2021, 3 de mayo) Contratos traslativos de posesión y de uso.  [Video] YouTube. 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
@@ -71,28 +80,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál de los siguientes contratos se caracteriza por la entrega gratuita de una cosa no fungible para su uso temporal, con la obligación de restituirla?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Contrato de arrendamiento',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'Contrato de comodato ',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Contrato de mutuo',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Contrato de depósito',
                 esCorrecta: false,
               },
             ],
@@ -102,28 +111,30 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              'Según el Código Civil colombiano, la permuta se diferencia de la compraventa en que:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto:
+                  'Una parte se obliga a prestar un bien y la otra a restituirlo en especie.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Ambas partes se obligan a dar una cosa por dinero.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Ambas partes se obligan mutuamente a dar una cosa por otra',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Se perfecciona exclusivamente por escritura pública.',
                 esCorrecta: false,
               },
             ],
@@ -133,28 +144,31 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              'En el contrato de arrendamiento, según el artículo 1973 del Código Civil colombiano:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto:
+                  'El arrendador se obliga a entregar una cosa gratuitamente para su uso.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Se perfecciona exclusivamente por escritura pública.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'El arrendatario se obliga a pagar por el goce temporal de una cosa. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto:
+                  'Se entrega un bien fungible con obligación de restituir otro igual.',
                 esCorrecta: false,
               },
             ],
@@ -163,28 +177,29 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto: '¿Cuál es una característica esencial del contrato de obra?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'La restitución de un bien recibido.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto:
+                  'La ejecución de una obra intelectual o material con entrega de un resultado. ',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'La custodia de un bien sin contraprestación económica.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'El intercambio de bienes sin ánimo de lucro.',
                 esCorrecta: false,
               },
             ],
@@ -193,29 +208,30 @@ export default {
           },
           {
             id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+            texto: 'El contrato de mutuo se distingue del comodato porque:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'El mutuo solo puede celebrarse con bienes inmuebles.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'El comodato es siempre con intereses.',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'El mutuo permite la restitución de bienes fungibles equivalentes, no los mismos. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto:
+                  'El comodato requiere escritura pública para su validez.',
                 esCorrecta: false,
               },
             ],
