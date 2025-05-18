@@ -14,7 +14,7 @@
             .col-lg-7
               p Para estudiar esta temática, lo invitamos a escuchar el siguiente <em>podcast</em>.
               TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-                texto="Fundamentos de la innovación estratégica"
+                texto="Mutuo"
                 tiempo
                 :audio="require('../../assets/curso/podcast/podcast1.mp3')"
               )
