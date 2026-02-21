@@ -157,9 +157,6 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=28729 " target="_blank" rel="noopener noreferrer") Congreso de Colombia. (1974). Código Civil colombiano (Edición actualizada). Recuperado de 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://www.docusign.com/es-mx/blog/desarrolladores/contratos-civiles" target="_blank" rel="noopener noreferrer") Docusign. (s.f.). Contratos civiles: qué son y cuáles son los tipos. Docusign Blog. Recuperado el 27 de marzo de 2025, de  
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
